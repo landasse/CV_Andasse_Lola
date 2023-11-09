@@ -6,6 +6,7 @@ h2 {
 header h1 {
   color: rgb(36, 67, 77);
   font-family: Yeseva One;
+  font-size: clamp(3rem, 10vw, 2rem);
 }
 
 p {
@@ -23,7 +24,7 @@ a {
   font-family: montserrat;
 }
 
-#Compétences {
+* {
   font-family: Montserrat;
 }
 
@@ -36,4 +37,8 @@ body {
 
 ul {
   list-style-type: square;
+}
+
+h3 {
+  background-color: #ede6d5;
 }
