@@ -1,0 +1,39 @@
+h2 {
+  color: rgb(61 93 104);
+  font-family: yeseva one;
+}
+
+header h1 {
+  color: rgb(36, 67, 77);
+  font-family: Yeseva One;
+}
+
+p {
+  color: black;
+  font-family: Montserrat;
+}
+
+a {
+  color: rgb(36 67 77);
+  font-family: Montserrat;
+}
+
+#Vendeuse h3 {
+  color: rgb(36 67 77);
+  font-family: montserrat;
+}
+
+#Compétences {
+  font-family: Montserrat;
+}
+
+header {
+  background-color: #ede6d5;
+}
+body {
+  background-color: #f8f7f2;
+}
+
+ul {
+  list-style-type: square;
+}
