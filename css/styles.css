@@ -1,14 +1,52 @@
-h2 {
-  color: rgb(61 93 104);
-  font-family: yeseva one;
-  background-color: #ebcc8f;
+/*Abstract---------------------------------------------------------*/
+* {
+  font-family: Montserrat;
 }
+
+.page {
+  border: 0px;
+}
+
+/*Basses---------------------------------------------------------*/
+
+body {
+  background-color: #f8f7f2;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-color: #ede6d5;
+  z-index: 100;
+}
+
+/*Heading--------------------------------------------------------*/
 
 header h1 {
   color: rgb(36, 67, 77);
   font-family: Yeseva One;
   font-size: clamp(3rem, 10vw, 2rem);
 }
+
+h2 {
+  color: rgb(61 93 104);
+  font-family: yeseva one;
+  background-color: #ebcc8f;
+}
+
+#Vendeuse h3 {
+  color: rgb(36 67 77);
+  font-family: montserrat;
+}
+
+h3 {
+  background-color: #ede6d5;
+}
+
+h1 {
+  display: inline;
+}
+
+/*Link*-----------------------------------------------------------*/
 
 p {
   color: black;
@@ -20,42 +58,10 @@ a {
   font-family: Montserrat;
 }
 
-#Vendeuse h3 {
-  color: rgb(36 67 77);
-  font-family: montserrat;
-}
-
-* {
-  font-family: Montserrat;
-}
-
-header {
-  background-color: #ede6d5;
-}
-body {
-  background-color: #f8f7f2;
-}
+/*Tableau----------------------------------------------------------*/
 
 ul {
   list-style-type: square;
-}
-
-h3 {
-  background-color: #ede6d5;
-}
-
-#profile-picture {
-  float: left;
-  margin-right: 20px;
-}
-
-h1 {
-  display: inline;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
 }
 
 th,
@@ -68,3 +74,66 @@ td {
 th {
   background-color: #ede6d5;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/*Layout--------------------------------------------------------*/
+
+.content {
+  display: flex;
+  gap: 2rem;
+}
+.gauche {
+  flex: 2;
+}
+
+.droite {
+  flex: 1;
+}
+
+.element {
+  border: 5px dashed #bda574;
+
+  display: flex;
+  gap: 1rem;
+}
+.Left {
+  flex: 1;
+}
+
+.middle {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+}
+
+#Recherche {
+  padding: 5px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: rgb(36 67 77);
+  margin: 20px 0;
+}
+
+/*Images-------------------------------------------------------*/
+
+#profile-picture {
+  float: left;
+  margin-right: 20px;
+}
+
+#design {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  z-index: 1;
+}
+/*-------------------------------------------------------------*/
