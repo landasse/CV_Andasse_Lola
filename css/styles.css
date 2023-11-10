@@ -86,20 +86,22 @@ table {
   display: flex;
   gap: 2rem;
 }
+
 .gauche {
   flex: 2;
 }
 
 .droite {
   flex: 1;
+  overflow: hidden; /* Add this line to prevent overflow */
 }
 
 .element {
   border: 5px dashed #bda574;
-
   display: flex;
   gap: 1rem;
 }
+
 .Left {
   flex: 1;
 }
