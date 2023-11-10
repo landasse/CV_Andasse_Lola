@@ -7,6 +7,16 @@
   border: 0px;
 }
 
+@media only screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .gauche,
+  .droite {
+    flex: 1;
+  }
+}
 /*Basses---------------------------------------------------------*/
 
 body {
@@ -93,7 +103,7 @@ table {
 
 .droite {
   flex: 1;
-  overflow: hidden; /* Add this line to prevent overflow */
+  overflow: hidden;
 }
 
 .element {
