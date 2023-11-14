@@ -104,19 +104,16 @@ table {
 
 .Left {
   flex: 1;
+  overflow: hidden;
 }
 
 .middle {
   flex: 1;
+  overflow: hidden;
 }
 
 .right {
   flex: 1;
-  overflow: hidden;
-}
-
-#Recherche {
-  padding: 5px;
 }
 
 hr {
@@ -133,10 +130,37 @@ hr {
   margin-right: 20px;
 }
 
-#design {
-  position: absolute;
-  top: -50px;
-  right: 0;
-  z-index: 1;
+/*Responsive--------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .gauche,
+  .droite {
+    flex: 1;
+  }
+
+  .element {
+    flex-direction: column;
+  }
 }
-/*-------------------------------------------------------------*/
+
+@media only screen and (min-width: 601px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .gauche {
+    flex: 2;
+  }
+
+  .droite {
+    flex: 1;
+  }
+
+  .element {
+    flex-direction: row; /* Maintenez la direction de la flexbox à la ligne pour les écrans plus grands */
+  }
+}
