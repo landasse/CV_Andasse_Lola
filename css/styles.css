@@ -100,6 +100,7 @@ table {
   border: 5px dashed #bda574;
   display: flex;
   gap: 1rem;
+  padding: 15px;
 }
 
 .Left {
@@ -161,6 +162,6 @@ hr {
   }
 
   .element {
-    flex-direction: row; /* Maintenez la direction de la flexbox à la ligne pour les écrans plus grands */
+    flex-direction: row;
   }
 }
